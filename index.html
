@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORT'ARIA | Coltivare il futuro sui tetti della città</title>
+  <style>
+    :root {
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --secondary: #0f172a;
+      --accent: #34d399;
+      --bg-light: #f8fafc;
+      --text-muted: #64748b;
+      --card-bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg-light); color: var(--secondary); line-height: 1.6; }
+    header { background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%); color: #fff; padding: 3rem 1.25rem 4rem; text-align: center; }
+    .badge { display: inline-block; background: rgba(52, 211, 153, 0.2); color: var(--accent); padding: 0.35rem 0.9rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.8rem; border: 1px solid rgba(52, 211, 153, 0.3); }
+    h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 0.75rem; letter-spacing: -0.025em; }
+    header p { max-width: 600px; margin: 0 auto 1.5rem; font-size: 1rem; color: #cbd5e1; }
+    .cta-btn { display: inline-block; background: var(--primary); color: #fff; text-decoration: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 600; font-size: 1rem; }
+    
+    .container { max-width: 900px; margin: -2rem auto 3rem; padding: 0 1.25rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
+    .card { background: var(--card-bg); border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); border: 1px solid #e2e8f0; }
+    .card h3 { font-size: 1.15rem; margin-bottom: 0.5rem; color: #064e3b; }
+    .card p { font-size: 0.9rem; color: var(--text-muted); }
+    
+    .stats-bar { background: #fff; border-radius: 12px; padding: 1.5rem; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem; margin-bottom: 2.5rem; border: 1px solid #e2e8f0; text-align: center; }
+    .stat-item h4 { font-size: 1.8rem; color: var(--primary); font-weight: 800; }
+    .stat-item span { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; }
+    
+    .form-section { background: var(--card-bg); border-radius: 14px; padding: 1.75rem; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06); border: 1px solid #e2e8f0; }
+    .form-section h2 { font-size: 1.6rem; margin-bottom: 0.5rem; text-align: center; color: #0f172a; }
+    .form-section > p { text-align: center; color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.9rem; }
+    
+    .form-group { margin-bottom: 1.2rem; }
+    label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem; color: #334155; }
+    input, select, textarea { width: 100%; padding: 0.7rem 0.85rem; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.95rem; }
+    textarea { resize: vertical; min-height: 90px; }
+    .submit-btn { width: 100%; background: var(--primary); color: #fff; border: none; padding: 0.9rem; border-radius: 8px; font-size: 1.05rem; font-weight: 600; cursor: pointer; }
+    
+    footer { text-align: center; padding: 2.5rem 1.25rem; font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid #e2e8f0; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="badge">Iniziativa AgTech & Sostenibilità Urbana</div>
+    <h1>ORT'ARIA</h1>
+    <p>Rigeneriamo superfici urbane e lastrici solari attraverso moduli idroponici leggeri a ciclo chiuso per produrre cibo fresco a filiera cortissima.</p>
+    <a href="#unisciti" class="cta-btn">Partecipa o Sostieni</a>
+  </header>
+
+  <div class="container">
+    
+    <div class="stats-bar">
+      <div class="stat-item">
+        <h4>-90%</h4>
+        <span>Risparmio Idrico</span>
+      </div>
+      <div class="stat-item">
+        <h4>~106 kg/m²</h4>
+        <span>Carico Statico Leggero</span>
+      </div>
+      <div class="stat-item">
+        <h4>0 km</h4>
+        <span>Chilometro Zero Reale</span>
+      </div>
+      <div class="stat-item">
+        <h4>-26 °C</h4>
+        <span>Raffrescamento Estivo</span>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>🌱 Tetti Produttivi & UFaaS</h3>
+        <p>Soluzione modulare a vasche e canaline senza cubatura volumetrica, a zero consumo di suolo fertile.</p>
+      </div>
+      <div class="card">
+        <h3>💧 Microgreens & Colture Locali</h3>
+        <p>Germogli, erbe aromatiche e insalate coltivate a radice pulita, ideali per chef e bistrot del territorio.</p>
+      </div>
+      <div class="card">
+        <h3>🤝 Community Aperta</h3>
+        <p>Cerchiamo collaboratori, agronomi, sviluppatori tecnici, ristoratori e investitori interessati al verde urbano.</p>
+      </div>
+    </div>
+
+    <section id="unisciti" class="form-section">
+      <h2>Unisciti al Progetto ORT'ARIA</h2>
+      <p>Compila il modulo per unirti al team, proporre uno spazio o sostenere lo sviluppo del pilota.</p>
+      
+      <form action="https://formspree.io/f/TUO_FORM_ID" method="POST">
+        
+        <div class="form-group">
+          <label for="nome">Nome e Cognome *</label>
+          <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email di contatto *</label>
+          <input type="email" id="email" name="email" placeholder="latua@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="ruolo">Come vorresti partecipare? *</label>
+          <select id="ruolo" name="ruolo" required>
+            <option value="" disabled selected>Seleziona un'opzione...</option>
+            <option value="Agronomo/a">Agronomo/a o Ricerca botanica</option>
+            <option value="Ingegnere IoT">Ingegnere / Tecnico IoT & Automazione</option>
+            <option value="Business & Sales">Business Development & Bandi</option>
+            <option value="Sostenitore / Finanziatore">Sostenitore, Donatore o Business Angel</option>
+            <option value="Proprietario Immobile">Proprietario di tetto/superficie</option>
+            <option value="Ristoratore">Chef o Ristoratore interessato</option>
+            <option value="Altro">Altro interesse / Curioso</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="messaggio">Presentazione o Proposta *</label>
+          <textarea id="messaggio" name="messaggio" placeholder="Raccontaci brevemente di te o di come vorresti collaborare..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Invia Candidatura / Messaggio</button>
+      </form>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 ORT'ARIA • Bologna, Italia</p>
+  </footer>
+
+</body>
+</html>
